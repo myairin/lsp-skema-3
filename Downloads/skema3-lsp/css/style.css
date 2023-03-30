@@ -1,0 +1,159 @@
+:root {
+     /* color  */
+     --primary-color: #1E6F5C;
+     --btn-color: #E6DD3B;
+     --heading-color: #ECE7B4;
+}
+
+*, *::after, *::before{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+body {
+     background-color: aliceblue;
+     font-family: 'Reem Kufi';
+}
+
+/* header */
+header {
+     background: #FFFFFF;
+     box-shadow: 0px 1px 5px rgba(19, 31, 51, 0.1);
+     padding: 3px 5px;
+}
+
+/* container */
+.container {
+     display: flex;
+     justify-content: space-between;
+     padding: 30px;
+     align-items: center;
+}
+
+h1 {
+     font-size: 20px;
+     color: #000000;
+}
+
+ul {
+     display: flex;
+     flex-direction: row;
+     padding: 0px 60px 0px 0px;
+     gap: 15px;
+     list-style: none;
+     font-size: 17px;
+}
+
+li {
+     padding-left: 50px;
+}
+
+a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+}
+
+.profil {
+     background: #017C6E;
+     border: 1px solid #017C6E;
+     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+     border-radius: 8px;
+     display: flex;
+     padding: 8px;
+}
+
+.sign {
+     margin-top:9px
+}
+
+/* img cari */
+.search {
+     display: flex;
+     gap: 12px;
+     width: 600px;
+     background: #F0EFED;
+     border: 1px solid #F0EFED;
+     border-radius: 8px;
+     padding: 8px;
+}
+
+img {
+     width: 23px;
+}
+
+h5 {
+     font-style: normal;
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     color: #62615f8e;
+}
+
+
+.vektor {
+     font-style: normal;
+     font-size: 16px;
+     color: #000000;
+}
+
+.merk-printer, .list {
+     padding: 50px 20px;
+}
+
+.list, .merk-printer, .merk-printer .nav-merk-printer ul, .list .nav-jenis-printer ul {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.file {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-bottom: 20px;
+     margin-left: -30px;
+     gap: 10px;
+}
+
+.container-kotak {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     gap: 17px;
+}
+
+.sidebar {
+     background-color: #ECE7B4;
+     height: 100%;
+     width: 65%;
+     top: 0;
+     left: 0;
+     font-display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+main {
+     display: flex;
+     gap: 5px;
+}
+
+.kotak img {
+     width: 255px;
+    margin-top: 24px;
+}
+
+h4 {
+     margin-left: 76px;
+    margin-bottom: 70px;
+}
+
+.p-title h3 {
+     padding: 10px 50px;
+     background: #017C6E;
+     text-align: center;
+     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+     border-radius: 8px;
+}
